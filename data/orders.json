@@ -1,10 +1,10 @@
 {
  "status" : 200 
   , "data" : [
-    {"결제완료" : 1}
-    , {"배송준비중" : 10}
-    , {"배송중" : 3}
-    , {"배송완료" : 5}
-  ] ,
-  "error" : null
+     {"status" : "결제완료" , "count" : 1}
+ 		, {"status" : "배송준비중" , "count" : 2}
+ 		, {"status" : "배송중" , "count" : 3}
+ 		, {"status" : "배송완료" , "count" : 4}
+  ]
+  , "error" : null
 }
